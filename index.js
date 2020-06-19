@@ -4,7 +4,7 @@ const bot = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] })
 //const token = '';
 const PREFIX = '!';
 const Patch = 'Meta Builds Patch Version 13.50';
-//
+
 const monster = new Map( [
 [1, 'https://i.imgur.com/G0aJB6s.png'],
 [2, 'https://i.imgur.com/DiI8kUD.png'],
