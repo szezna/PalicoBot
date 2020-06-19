@@ -4,8 +4,8 @@ const bot = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] })
 //const token = '';
 const PREFIX = '!';
 const Patch = 'Meta Builds Patch Version 13.50';
-
-const monster = new Map( [ 
+//
+const monster = new Map( [
 [1, 'https://i.imgur.com/G0aJB6s.png'],
 [2, 'https://i.imgur.com/DiI8kUD.png'],
 [3, 'https://i.imgur.com/cfjKUA3.png'],
@@ -184,7 +184,7 @@ bot.on("messageReactionAdd", async (reaction, user) => {
     // Jeywe rules 721357870163165204
     if (reaction.message.channel.id === "721357870163165204") {
         if (reaction.emoji.name === "❤️") {
-            await reaction.message.guild.members.cache.get(user.id).roles.add("721360117693677590") // Role ID 
+            await reaction.message.guild.members.cache.get(user.id).roles.add("721360117693677590") // Role ID
             return user.send("Hunter role was given! You are now allowed to post in JeyWe's Channel, have Fun :)").catch(() => console.log("Failed to send DM."));
         } else {
             return; // If the room is not rules, then ignore reacts
