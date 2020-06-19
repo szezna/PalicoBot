@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });
-
+//
 const token = 'NzIxMzI1ODUwMzM4Nzg3MzM4.XuS50g.qjsoJcYOP1FYtDgjzibbQ0XSba0';
 const PREFIX = '!';
 const Patch = 'Meta Builds Patch Version 13.50';
@@ -175,7 +175,7 @@ bot.on("messageReactionAdd", async (reaction, user) => {
     // Jeywe rules 721357870163165204
     if (reaction.message.channel.id === "721357870163165204") {
         if (reaction.emoji.name === "❤️") {
-            await reaction.message.guild.members.cache.get(user.id).roles.add("721360117693677590") // Role ID 
+            await reaction.message.guild.members.cache.get(user.id).roles.add("721360117693677590") // Role ID
             return user.send("Hunter role was given! You are now allowed to post in JeyWe's Channel, have Fun :)").catch(() => console.log("Failed to send DM."));
         } else {
             return; // If the room is not rules, then ignore reacts
