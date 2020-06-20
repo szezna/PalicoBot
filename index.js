@@ -75,8 +75,8 @@ bot.on('message', msg => {
             msg.reply(newestVideo)
             break;
         case 'roll':
-            min = Math.ceil(1);
-            max = Math.floor(2);
+            min = Math.ceil(100);
+            max = Math.floor(110);
             var number = Math.floor(Math.random() * (max - min + 1)) + min;
 
             if (number > 0 && number < 49) {
@@ -320,17 +320,17 @@ const monster = new Map([
     [99, 'https://imgur.com/nxmSIHf'], // | Zorah Magdaros
 
     // S-Tier 11
-    [100, 'https://imgur.com/IFlWxFn'], // | Alatreon
-    [101, 'https://imgur.com/VkxyM1Q'], // | Amatsu
-    [102, 'https://imgur.com/7S6EzdN'], // | Black Fatalis
-    [103, 'https://imgur.com/2T201wv'], // | Crimsion Fatalis
-    [104, 'https://imgur.com/fO7AHld'], // | Dalamadur
-    [105, 'https://imgur.com/6FqQ0zk'], // | Dalamadur
-    [106, 'https://imgur.com/W3Ek8y2'], // | Dire Miralis
-    [107, 'https://imgur.com/z3djcH2'], // | Fat Handler
-    [108, 'https://imgur.com/1yiYlzW'], // | Safi'jiiva
-    [109, 'https://imgur.com/bvvSIoF'], // | White Fatalis
-    [110, 'https://imgur.com/2HnK9nw'], // | Xeno'jiiva
+    [100, 'https://i.imgur.com/jDqbzyr.png'], // | Alatreon
+    [101, 'https://i.imgur.com/N8duTTi.png'], // | Amatsu
+    [102, 'https://i.imgur.com/EnPoA30.png'], // | Black Fatalis
+    [103, 'https://i.imgur.com/laWm6wU.png'], // | Crimsion Fatalis
+    [104, 'https://i.imgur.com/KFFj0ia.png'], // | Dalamadur
+    [105, 'https://i.imgur.com/iPPTnf7.png'], // | Dalamadur
+    [106, 'https://i.imgur.com/sPE89pT.png'], // | Dire Miralis
+    [107, 'https://i.imgur.com/R3oBdzo.png'], // | Fat Handler
+    [108, 'https://i.imgur.com/JibypZE.png'], // | Safi'jiiva
+    [109, 'https://i.imgur.com/5VRWHzo.png'], // | White Fatalis
+    [110, 'https://i.imgur.com/J2vlf3j.png'], // | Xeno'jiiva
 ]);
 
 bot.login(process.env.token);
