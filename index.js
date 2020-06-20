@@ -1,4 +1,4 @@
-import { monster } from './monsterCards'
+const { monster } = require('./monster.js')
  
 const Discord = require('discord.js');
 const bot = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });

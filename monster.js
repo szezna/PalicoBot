@@ -117,4 +117,4 @@ const monster = new Map([
     [109, 'https://i.imgur.com/5VRWHzo.png'], // | White Fatalis
     [110, 'https://i.imgur.com/J2vlf3j.png'], // | Xeno'jiiva
 ]);
-export { monster };
+module.exports = { monster };
