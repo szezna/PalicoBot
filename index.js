@@ -215,7 +215,7 @@ bot.on("messageReactionRemove", async (reaction, user) => {
 
 const monster = new Map([
     // C-Tier 48
-    [1, 'https://i.imgur.com/ZHc3qNV.png'],  // | Anjanath
+    [1, 'https://i.imgur.com/KFFj0ia.png'],  // | Anjanath
     [2, 'https://i.imgur.com/cfjKUA3.png'],  // | Arzuros
     [3, 'https://imgur.com/sKbGSXv'],  // | Pukei Pukei
     [4, 'https://imgur.com/MG3p0Hm'],  // | Qurupeco
