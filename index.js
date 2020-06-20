@@ -75,8 +75,8 @@ bot.on('message', msg => {
             msg.reply(newestVideo)
             break;
         case 'roll':
-            min = Math.ceil(100);
-            max = Math.floor(110);
+            min = Math.ceil(1);
+            max = Math.floor(1);
             var number = Math.floor(Math.random() * (max - min + 1)) + min;
 
             if (number > 0 && number < 49) {
@@ -215,7 +215,7 @@ bot.on("messageReactionRemove", async (reaction, user) => {
 
 const monster = new Map([
     // C-Tier 48
-    [1, 'https://i.imgur.com/KFFj0ia.png'],  // | Anjanath
+    [1, 'https://i.imgur.com/A56DdR3.png'],  // | Anjanath
     [2, 'https://i.imgur.com/cfjKUA3.png'],  // | Arzuros
     [3, 'https://imgur.com/sKbGSXv'],  // | Pukei Pukei
     [4, 'https://imgur.com/MG3p0Hm'],  // | Qurupeco
