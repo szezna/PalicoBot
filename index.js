@@ -1,12 +1,11 @@
-const { monster } = require('./monster.js')
- 
+
 const Discord = require('discord.js');
 const bot = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });
 
 //const token = '';
 const PREFIX = '!';
 const Patch = 'Meta Builds Patch Version 13.50';
-
+const { monster } = require('./monster.js')
 
 let newestVideo = ["https://www.youtube.com/watch?v=OSifzcaJpPk"];
 
@@ -82,16 +81,19 @@ bot.on('message', msg => {
             var number = Math.floor(Math.random() * (max - min + 1)) + min;
 
             if (number > 0 && number < 49) {
-                msg.reply('rolls C Tier Monster' + ' ' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls' + 'Name ' + '|' + '★★' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 48 && number < 82) {
-                msg.reply('rolls B Tier Monster' + ' ' + '(' + number + ', test only) ' + (33 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls' + 'Name ' + '|' + '★★★' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 81 && number < 100) {
-                msg.reply('rolls A Tier Monster' + ' ' + '(' + number + ', test only) ' + (18 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls' + 'Name ' + '|' + '★★★★' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
-            if (number > 99 && number < 111) {
-                msg.reply('rolls S Tier Monster' + ' ' + '(' + number + ', test only) ' + (11 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+            if (number > 99 && number < 109) {
+                msg.reply('rolls' + 'Name ' + '|' + '★★★★★' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+            }
+            if (number > 108 && number < 111) {
+                msg.reply('rolls' + 'Name ' + '|' + '★★★★★★+' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] })
             }
             break;
         case 'reactionRules':

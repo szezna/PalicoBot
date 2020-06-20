@@ -104,7 +104,7 @@ const monster = new Map([
     [98, 'https://i.imgur.com/mqwDy5y.png'], // | Yama Tsukami
     [99, 'https://i.imgur.com/nxmSIHf.png'], // | Zorah Magdaros
     
-    // S-Tier 11
+    // S-Tier 9
     [100, 'https://i.imgur.com/jDqbzyr.png'], // | Alatreon
     [101, 'https://i.imgur.com/N8duTTi.png'], // | Amatsu
     [102, 'https://i.imgur.com/EnPoA30.png'], // | Black Fatalis
@@ -112,9 +112,11 @@ const monster = new Map([
     [104, 'https://i.imgur.com/KFFj0ia.png'], // | Dalamadur
     [105, 'https://i.imgur.com/iPPTnf7.png'], // | Dalamadur
     [106, 'https://i.imgur.com/sPE89pT.png'], // | Dire Miralis
-    [107, 'https://i.imgur.com/R3oBdzo.png'], // | Fat Handler
-    [108, 'https://i.imgur.com/JibypZE.png'], // | Safi'jiiva
+    [107, 'https://i.imgur.com/JibypZE.png'], // | Safi'jiiva
+    [108, 'https://i.imgur.com/J2vlf3j.png'], // | Xeno'jiiva
+
+    // S+ Tier 2
     [109, 'https://i.imgur.com/5VRWHzo.png'], // | White Fatalis
-    [110, 'https://i.imgur.com/J2vlf3j.png'], // | Xeno'jiiva
+    [110, 'https://i.imgur.com/R3oBdzo.png'], // | Fat Handler
 ]);
 module.exports = { monster };
