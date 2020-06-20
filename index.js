@@ -5,13 +5,6 @@ const bot = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] })
 const PREFIX = '!';
 const Patch = 'Meta Builds Patch Version 13.50';
 
-const monster = new Map( [
-[1, 'https://i.imgur.com/G0aJB6s.png'],
-[2, 'https://i.imgur.com/DiI8kUD.png'],
-[3, 'https://i.imgur.com/cfjKUA3.png'],
-[4, 'https://i.imgur.com/ZHc3qNV.png'],
-[5, 'https://i.imgur.com/SyewOHw.png'],
-]);
 
 let newestVideo = ["https://www.youtube.com/watch?v=OSifzcaJpPk"];
 
@@ -83,21 +76,20 @@ bot.on('message', msg => {
             break;
         case 'roll':
             min = Math.ceil(1);
-            max = Math.floor(5);
-            var number = Math.floor(Math.random() * (max - min +1)) + min;
+            max = Math.floor(110);
+            var number = Math.floor(Math.random() * (max - min + 1)) + min;
 
-            if(number === 0) {
-                return 'Unlucky';
+            if (number > 0 && number < 49) {
+                msg.reply('rolls C Tier Monster' + ' ' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
-
-            if(number === 1) {
-                msg.reply('rolls C Tier Monster' + ' ' + '(' + number + ', test only) ' + (1/monster.size)*100 + '% Chance', {files: [monster.get(number)]});
+            if (number > 48 && number < 82) {
+                msg.reply('rolls B Tier Monster' + ' ' + '(' + number + ', test only) ' + (33 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
-            if(number>1 && number<4) {
-                msg.reply('rolls B Tier Monster' + ' ' + '(' + number + ', test only) ' + (1/monster.size)*100 + '% Chance', {files: [monster.get(number)]});
+            if (number > 81 && number < 100) {
+                msg.reply('rolls A Tier Monster' + ' ' + '(' + number + ', test only) ' + (18 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
-            if(number===5) {
-                msg.reply('rolls A Tier Monster' + ' ' + '(' + number + ', test only) ' + (1/monster.size)*100 + '% Chance', {files: [monster.get(number)]});
+            if (number > 99 && number < 111) {
+                msg.reply('rolls S Tier Monster' + ' ' + '(' + number + ', test only) ' + (11 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
             break;
         case 'reactionRules':
@@ -220,5 +212,125 @@ bot.on("messageReactionRemove", async (reaction, user) => {
     }
 })
 
+
+const monster = new Map([
+    // C-Tier 48
+    [1, 'https://imgur.com/HRcm2na'],  // | Anjanath
+    [2, 'https://imgur.com/z8oRot7'],  // | Arzuros
+    [3, 'https://imgur.com/sKbGSXv'],  // | Pukei Pukei
+    [4, 'https://imgur.com/MG3p0Hm'],  // | Qurupeco
+    [5, 'https://imgur.com/Oteqxbb'],  // | Rathalos
+    [6, 'https://imgur.com/1gR3iCY'],  // | Rathian
+    [7, 'https://imgur.com/ZPuaeCG'],  // | Royal Ludroth
+    [8, 'https://imgur.com/6zEVxlO'],  // | Ruby Basarios
+    [9, 'https://imgur.com/9ghtUAh'],  // | Shogun Ceanataur
+    [10, 'https://imgur.com/eYZnM4t'], // | Tigrex
+    [11, 'https://imgur.com/sS9DqGj'], // | Tobi Kadachi
+    [12, 'https://imgur.com/TkgFYEU'], // | Uragaan
+    [13, 'https://imgur.com/yWc2in1'], // | Volvidon
+    [14, 'https://imgur.com/5OSW64N'], // | Yian Garuga
+    [15, 'https://imgur.com/0Fdljc7'], // | Barioth
+    [16, 'https://imgur.com/xkFU8Kf'], // | Diablos
+    [17, 'https://imgur.com/lH8gOND'], // | Congalala
+    [18, 'https://imgur.com/3hSiBMe'], // | Yian Kut Ku
+    [19, 'https://imgur.com/qAK3rmC'], // | Daimyo Hermitaur
+    [20, 'https://imgur.com/0NGoeji'], // | Zamtrios
+    [21, 'https://imgur.com/8zPVtqa'], // | Dodogama
+    [22, 'https://imgur.com/KucJJzw'], // | Barroth
+    [23, 'https://imgur.com/1Ej64Cs'], // | Basarios
+    [24, 'https://imgur.com/kaXrMv0'], // | Blangonga
+    [25, 'https://imgur.com/zPH2rjM'], // | Cephadrome
+    [26, 'https://imgur.com/XWldpPH'], // | Emerald Congalala
+    [27, 'https://imgur.com/vQ9Q2xE'], // | Gravios
+    [28, 'https://imgur.com/yx4KKwm'], // | Gigginox
+    [29, 'https://imgur.com/wGvFJr2'], // | Great Girros
+    [30, 'https://imgur.com/4lGN909'], // | Great Baggi
+    [31, 'https://imgur.com/vR9tYvz'], // | Gobul
+    [32, 'https://imgur.com/bARH8be'], // | Great Jaggi
+    [33, 'https://imgur.com/iN4l5jG'], // | Green Plesioth
+    [34, 'https://imgur.com/87hJOhY'], // | Gypceros
+    [35, 'https://imgur.com/asjhyte'], // | Jyuratodos
+    [36, 'https://imgur.com/iSwlnX3'], // | Jade Barroth
+    [37, 'https://imgur.com/Id7lguf'], // | Kecha Wacha
+    [38, 'https://imgur.com/uotwQne'], // | Lavasioth
+    [39, 'https://imgur.com/HiUOyXI'], // | Lagombi
+    [40, 'https://imgur.com/weKzd2o'], // | Khezu
+    [41, 'https://imgur.com/xcFPkR1'], // | Legiana
+    [42, 'https://imgur.com/QAt9xZ5'], // | Malfestio
+    [43, 'https://imgur.com/qIhkeVD'], // | Nerscylla
+    [44, 'https://imgur.com/RNamIO8'], // | Nargacuga
+    [45, 'https://imgur.com/gCMMNc2'], // | Nibelsnarf
+    [46, 'https://imgur.com/nkkXTyB'], // | Odogaron
+    [47, 'https://imgur.com/JFhGR07'], // | Paolumu
+    [48, 'https://imgur.com/NbSXHx0'], // | Plesioth
+
+    // B-Tier 33
+    [49, 'https://imgur.com/I159Nbq'], // | Agnaktor
+    [50, 'https://imgur.com/Kym9jlM'], // | Astalos
+    [51, 'https://imgur.com/q7CzwJb'], // | Atlal - Ka
+    [52, 'https://imgur.com/PtMDRxB'], // | Azure Rathalos
+    [53, 'https://imgur.com/FmPWuD2'], // | Bazelgeuse
+    [54, 'https://imgur.com/hCOQFsb'], // | Black Diablos
+    [55, 'https://imgur.com/pwqG3Tt'], // | Gammoth
+    [56, 'https://imgur.com/POjSnJU'], // | Brachydios
+    [57, 'https://imgur.com/GkmVPTu'], // | Brute Tigrex
+    [58, 'https://imgur.com/9rv9IKM'], // | Chameleos
+    [59, 'https://imgur.com/qwoCY3C'], // | Deviljho
+    [60, 'https://imgur.com/3dydhwP'], // | Glacial Agnaktor
+    [61, 'https://imgur.com/tx9bmLd'], // | Glavenus
+    [62, 'https://imgur.com/aksvSvD'], // | Gold Rathian
+    [63, 'https://imgur.com/NeIG5Z3'], // | Gore Magala
+    [64, 'https://imgur.com/4FqkUzn'], // | Ivory Lagiacrus
+    [65, 'https://imgur.com/qYBypHv'], // | Kirin
+    [66, 'https://imgur.com/EWTcBzr'], // | Kushala Daora
+    [67, 'https://imgur.com/B463JYe'], // | Lagiacrus
+    [68, 'https://imgur.com/KPGd831'], // | Lunastra
+    [69, 'https://imgur.com/Ufx23GR'], // | Mizutsune
+    [70, 'https://imgur.com/rDwaJFq'], // | Molten Tigrex
+    [71, 'https://imgur.com/WtVZ72Z'], // | Oroshi Kirin
+    [72, 'https://imgur.com/Rbw6Z0N'], // | Pink Rathian
+    [73, 'https://imgur.com/dnzzgNj'], // | Rajang
+    [74, 'https://imgur.com/b3v4a5l'], // | Sand Barioth
+    [75, 'https://imgur.com/bx14irj'], // | Seregios
+    [76, 'https://imgur.com/sah7HYe'], // | Shen Gaoren
+    [77, 'https://imgur.com/fB7aNHt'], // | Silver Rathalos
+    [78, 'https://imgur.com/BIUb7DU'], // | Teostra
+    [79, 'https://imgur.com/mVYQPVr'], // | Vaal Hazak
+    [80, 'https://imgur.com/GrXuCfL'], // | White Monoblos
+    [81, 'https://imgur.com/90wlEWX'], // | Zinogre
+
+    // A-Tier 18
+    [82, 'https://imgur.com/zALuAi7'], // | Akantor
+    [83, 'https://imgur.com/A56DdR3'], // | Ceadeus
+    [84, 'https://imgur.com/PXsuNP5'], // | Chaotic Gore Magala
+    [85, 'https://imgur.com/1hEG5c4'], // | Dah'ren Mohran
+    [86, 'https://imgur.com/mHpomds'], // | Furious Rajang
+    [87, 'https://imgur.com/Dd3TyXc'], // | Gogmazios
+    [88, 'https://imgur.com/QIJdLaQ'], // | Jhen Moran
+    [89, 'https://imgur.com/LzulcF5'], // |  Kulve Taroth
+    [90, 'https://imgur.com/sRgFSSj'], // | Lao - Shan Lung
+    [91, 'https://imgur.com/V4n8Ynu'], // | Nergigante
+    [92, 'https://imgur.com/WjLoFSE'], // | Rusted Kushala Daora
+    [93, 'https://imgur.com/R9qLdXX'], // | Savage Deviljho
+    [94, 'https://imgur.com/lrdO5IT'], // | Shagaru Magala
+    [95, 'https://imgur.com/b7vhRS6'], // | Stygian Zinogre
+    [96, 'https://imgur.com/LSHbN7B'], // | Ukanlos
+    [97, 'https://imgur.com/E74llnu'], // | Valstrax
+    [98, 'https://imgur.com/mqwDy5y'], // | Yama Tsukami
+    [99, 'https://imgur.com/nxmSIHf'], // | Zorah Magdaros
+
+    // S-Tier 11
+    [100, 'https://imgur.com/IFlWxFn'], // | Alatreon
+    [101, 'https://imgur.com/VkxyM1Q'], // | Amatsu
+    [102, 'https://imgur.com/7S6EzdN'], // | Black Fatalis
+    [103, 'https://imgur.com/2T201wv'], // | Crimsion Fatalis
+    [104, 'https://imgur.com/fO7AHld'], // | Dalamadur
+    [105, 'https://imgur.com/6FqQ0zk'], // | Dalamadur
+    [106, 'https://imgur.com/W3Ek8y2'], // | Dire Miralis
+    [107, 'https://imgur.com/z3djcH2'], // | Fat Handler
+    [108, 'https://imgur.com/1yiYlzW'], // | Safi'jiiva
+    [109, 'https://imgur.com/bvvSIoF'], // | White Fatalis
+    [110, 'https://imgur.com/2HnK9nw'], // | Xeno'jiiva
+]);
 
 bot.login(process.env.token);
