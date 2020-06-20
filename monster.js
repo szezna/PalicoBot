@@ -1,5 +1,5 @@
 const monster = new Map([
-    // C-Tier 48
+    // ★★ 48
     [1, 'https://i.imgur.com/HRcm2na.png'],  // | Anjanath
     [2, 'https://i.imgur.com/cfjKUA3.png'],  // | Arzuros
     [3, 'https://i.imgur.com/sKbGSXv.png'],  // | Pukei Pukei
@@ -49,7 +49,7 @@ const monster = new Map([
     [47, 'https://i.imgur.com/JFhGR07.png'], // | Paolumu
     [48, 'https://i.imgur.com/NbSXHx0.png'], // | Plesioth
 
-    // B-Tier 33
+    // ★★★ 33
     [49, 'https://i.imgur.com/I159Nbq.png'], // | Agnaktor
     [50, 'https://i.imgur.com/Kym9jlM.png'], // | Astalos
     [51, 'https://i.imgur.com/q7CzwJb.png'], // | Atlal - Ka
@@ -84,7 +84,7 @@ const monster = new Map([
     [80, 'https://i.imgur.com/GrXuCfL.png'], // | White Monoblos
     [81, 'https://i.imgur.com/90wlEWX.png'], // | Zinogre
 
-    // A-Tier 18
+    // ★★★★ 18
     [82, 'https://i.imgur.com/zALuAi7.png'], // | Akantor
     [83, 'https://i.imgur.com/A56DdR3.png'], // | Ceadeus
     [84, 'https://i.imgur.com/PXsuNP5.png'], // | Chaotic Gore Magala
@@ -104,7 +104,7 @@ const monster = new Map([
     [98, 'https://i.imgur.com/mqwDy5y.png'], // | Yama Tsukami
     [99, 'https://i.imgur.com/nxmSIHf.png'], // | Zorah Magdaros
     
-    // S-Tier 9
+    // ★★★★★ 9
     [100, 'https://i.imgur.com/jDqbzyr.png'], // | Alatreon
     [101, 'https://i.imgur.com/N8duTTi.png'], // | Amatsu
     [102, 'https://i.imgur.com/EnPoA30.png'], // | Black Fatalis
@@ -115,7 +115,7 @@ const monster = new Map([
     [107, 'https://i.imgur.com/JibypZE.png'], // | Safi'jiiva
     [108, 'https://i.imgur.com/J2vlf3j.png'], // | Xeno'jiiva
 
-    // S+ Tier 2
+    // ★★★★★★+ 2
     [109, 'https://i.imgur.com/5VRWHzo.png'], // | White Fatalis
     [110, 'https://i.imgur.com/R3oBdzo.png'], // | Fat Handler
 ]);
