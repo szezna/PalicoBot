@@ -82,16 +82,16 @@ bot.on('message', msg => {
             var number = Math.floor(Math.random() * (max - min + 1)) + min;
 
             if (number > 0 && number < 49) {
-                msg.reply('rolls C Tier Monster' + ' ' + '(' + number + ', test only) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls C Tier Monster' + ' ' + '(' + number + ', test only1) ' + (48 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 48 && number < 82) {
-                msg.reply('rolls B Tier Monster' + ' ' + '(' + number + ', test only) ' + (33 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls B Tier Monster' + ' ' + '(' + number + ', test only1) ' + (33 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 81 && number < 100) {
-                msg.reply('rolls A Tier Monster' + ' ' + '(' + number + ', test only) ' + (18 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls A Tier Monster' + ' ' + '(' + number + ', test only1) ' + (18 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 99 && number < 111) {
-                msg.reply('rolls S Tier Monster' + ' ' + '(' + number + ', test only) ' + (11 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls S Tier Monster' + ' ' + '(' + number + ', test only1) ' + (11 / monster.size) * 100 + '% Chance', { files: [monster.get(number)] });
             }
             break;
         case 'reactionRules':
