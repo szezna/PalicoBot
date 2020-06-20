@@ -84,10 +84,10 @@ bot.on('message', msg => {
                 msg.reply('rolls ' + 'Name ' + ' | ' + 'Rarity: ★★' + ' (' + number + ', test only) ' + Math.round((48 / monster.size) * 100) + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 48 && number < 82) {
-                msg.reply('rolls ' + 'Name ' + ' | ' + 'Rarity: ★★★' + ' (' + number + ', test only) ' + Math.round((33 / monster.size) * 100) + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls ' + 'Name ' + ' | ' + 'Rarity: ★★★' + ' (' + number + ', test only) ' + Math.round((32 / monster.size) * 100) + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 81 && number < 100) {
-                msg.reply('rolls ' + 'Name ' + ' | ' + 'Rarity: ★★★★' + ' (' + number + ', test only) ' + Math.round((18 / monster.size) * 100) + '% Chance', { files: [monster.get(number)] });
+                msg.reply('rolls ' + 'Name ' + ' | ' + 'Rarity: ★★★★' + ' (' + number + ', test only) ' + Math.round((19 / monster.size) * 100) + '% Chance', { files: [monster.get(number)] });
             }
             if (number > 99 && number < 109) {
                 msg.reply('rolls ' + 'Name' + ' | ' + 'Rarity: ★★★★★' + ' (' + number + ', test only) ' + Math.round((9 / monster.size) * 100) + '% Chance', { files: [monster.get(number)] });

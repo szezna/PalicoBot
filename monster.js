@@ -1,5 +1,5 @@
 const monster = new Map([
-    // ★★ 48
+    // ★★ 48 - C
     [1, 'https://i.imgur.com/HRcm2na.png'],  // | Anjanath
     [2, 'https://i.imgur.com/cfjKUA3.png'],  // | Arzuros
     [3, 'https://i.imgur.com/sKbGSXv.png'],  // | Pukei Pukei
@@ -49,7 +49,7 @@ const monster = new Map([
     [47, 'https://i.imgur.com/JFhGR07.png'], // | Paolumu
     [48, 'https://i.imgur.com/NbSXHx0.png'], // | Plesioth
 
-    // ★★★ 33
+    // ★★★ 32 - B
     [49, 'https://i.imgur.com/I159Nbq.png'], // | Agnaktor
     [50, 'https://i.imgur.com/Kym9jlM.png'], // | Astalos
     [51, 'https://i.imgur.com/q7CzwJb.png'], // | Atlal - Ka
@@ -67,24 +67,24 @@ const monster = new Map([
     [63, 'https://i.imgur.com/NeIG5Z3.png'], // | Gore Magala
     [64, 'https://i.imgur.com/4FqkUzn.png'], // | Ivory Lagiacrus
     [65, 'https://i.imgur.com/qYBypHv.png'], // | Kirin
-    [66, 'https://i.imgur.com/EWTcBzr.png'], // | Kushala Daora
-    [67, 'https://i.imgur.com/B463JYe.png'], // | Lagiacrus
-    [68, 'https://i.imgur.com/KPGd831.png'], // | Lunastra
-    [69, 'https://i.imgur.com/Ufx23GR.png'], // | Mizutsune
-    [70, 'https://i.imgur.com/rDwaJFq.png'], // | Molten Tigrex
-    [71, 'https://i.imgur.com/WtVZ72Z.png'], // | Oroshi Kirin
-    [72, 'https://i.imgur.com/Rbw6Z0N.png'], // | Pink Rathian
-    [73, 'https://i.imgur.com/dnzzgNj.png'], // | Rajang
-    [74, 'https://i.imgur.com/b3v4a5l.png'], // | Sand Barioth
-    [75, 'https://i.imgur.com/bx14irj.png'], // | Seregios
-    [76, 'https://i.imgur.com/sah7HYe.png'], // | Shen Gaoren
-    [77, 'https://i.imgur.com/fB7aNHt.png'], // | Silver Rathalos
-    [78, 'https://i.imgur.com/BIUb7DU.png'], // | Teostra
-    [79, 'https://i.imgur.com/mVYQPVr.png'], // | Vaal Hazak
-    [80, 'https://i.imgur.com/GrXuCfL.png'], // | White Monoblos
-    [81, 'https://i.imgur.com/90wlEWX.png'], // | Zinogre
+    [66, 'https://i.imgur.com/B463JYe.png'], // | Lagiacrus
+    [67, 'https://i.imgur.com/KPGd831.png'], // | Lunastra
+    [68, 'https://i.imgur.com/Ufx23GR.png'], // | Mizutsune
+    [69, 'https://i.imgur.com/rDwaJFq.png'], // | Molten Tigrex
+    [70, 'https://i.imgur.com/WtVZ72Z.png'], // | Oroshi Kirin
+    [71, 'https://i.imgur.com/Rbw6Z0N.png'], // | Pink Rathian
+    [72, 'https://i.imgur.com/dnzzgNj.png'], // | Rajang
+    [73, 'https://i.imgur.com/b3v4a5l.png'], // | Sand Barioth
+    [74, 'https://i.imgur.com/bx14irj.png'], // | Seregios
+    [75, 'https://i.imgur.com/sah7HYe.png'], // | Shen Gaoren
+    [76, 'https://i.imgur.com/fB7aNHt.png'], // | Silver Rathalos
+    [77, 'https://i.imgur.com/BIUb7DU.png'], // | Teostra
+    [78, 'https://i.imgur.com/mVYQPVr.png'], // | Vaal Hazak
+    [79, 'https://i.imgur.com/GrXuCfL.png'], // | White Monoblos
+    [80, 'https://i.imgur.com/90wlEWX.png'], // | Zinogre
 
-    // ★★★★ 18
+    // ★★★★ 19 - A
+    [81, 'https://i.imgur.com/EWTcBzr.png'], // | Kushala Daora
     [82, 'https://i.imgur.com/zALuAi7.png'], // | Akantor
     [83, 'https://i.imgur.com/A56DdR3.png'], // | Ceadeus
     [84, 'https://i.imgur.com/PXsuNP5.png'], // | Chaotic Gore Magala
@@ -104,7 +104,7 @@ const monster = new Map([
     [98, 'https://i.imgur.com/mqwDy5y.png'], // | Yama Tsukami
     [99, 'https://i.imgur.com/nxmSIHf.png'], // | Zorah Magdaros
     
-    // ★★★★★ 9
+    // ★★★★★ 9 - S
     [100, 'https://i.imgur.com/jDqbzyr.png'], // | Alatreon
     [101, 'https://i.imgur.com/N8duTTi.png'], // | Amatsu
     [102, 'https://i.imgur.com/EnPoA30.png'], // | Black Fatalis
@@ -115,7 +115,7 @@ const monster = new Map([
     [107, 'https://i.imgur.com/JibypZE.png'], // | Safi'jiiva
     [108, 'https://i.imgur.com/J2vlf3j.png'], // | Xeno'jiiva
 
-    // ★★★★★★+ 2
+    // ★★★★★★+ 2 - S+
     [109, 'https://i.imgur.com/5VRWHzo.png'], // | White Fatalis
     [110, 'https://i.imgur.com/R3oBdzo.png'], // | Fat Handler
 ]);
