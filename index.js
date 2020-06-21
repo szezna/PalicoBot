@@ -1,11 +1,15 @@
-
 const Discord = require('discord.js');
 const bot = new Discord.Client({ partials: ["MESSAGE", "CHANNEL", "REACTION"] });
 
-//const token = '';
+// const token = '';
+
 const PREFIX = '!';
 const Patch = 'Meta Builds Patch Version 13.50';
-const { monster } = require('./monster.js')
+const { monster } = require('./monster.js');
+let xp = require('./xp.json');
+let colors = require('./colors.json');
+
+fs = require('fs');
 
 let newestVideo = ["https://www.youtube.com/watch?v=OSifzcaJpPk"];
 
@@ -14,11 +18,71 @@ bot.on('ready', () => {
     console.log('Ich bin on Bro');
 })
 
+// XP
+bot.on("message", async message => {
+    let xpAdd = Math.floor(Math.random() * 7) + 8;
+    // console.log(xpAdd);
+
+    if (!xp[message.author.id]) {
+        if (message.member.roles.cache.find(r => r.name === 'PalicoBot')) {
+            return;
+        } else {
+        xp[message.author.id] = {
+            xp: 0,
+            level: 1
+            }   
+        }
+    }
+
+    let curXp = xp[message.author.id].xp;
+    let curLvl = xp[message.author.id].level;
+    let nxtLvl = xp[message.author.id].level * 300;
+    xp[message.author.id].xp = curXp + xpAdd;
+    if (nxtLvl <= xp[message.author.id].xp) {
+        xp[message.author.id].level = curLvl + 1;
+        let lvlup = new Discord.MessageEmbed()
+        .setTitle('You leveled up! Now get some Pizza')
+        .setColor(colors.orange)
+        .addField('New Level: ', curLvl + 1)
+            
+            message.reply(lvlup);
+    }
+    fs.writeFile('./xp.json', JSON.stringify(xp, null, '\t'), (err) => {
+        if (err) {
+            console.log(err)
+        }
+    })
+
+})
+
 // bot listenting to commands with prefix !
 bot.on('message', msg => {
     let args = msg.content.substring(PREFIX.length).split(" ");
 
     switch (args[0]) {
+        case 'level':
+            
+            if (!xp[msg.author.id]) {
+                    xp[msg.author.id] = {
+                        xp: 0,
+                        level: 1
+                    }
+                }
+               
+            let curXp = xp[msg.author.id].xp;
+            let curLvl = xp[msg.author.id].level;
+            let nxtLvlXp = curLvl * 300;
+            let difference = nxtLvlXp - curXp;
+        
+            let lvlEmbed = new Discord.MessageEmbed()
+                .setAuthor(msg.author.username)
+                .setColor(colors.orange)
+                .addField("Level", curLvl, true)
+                .addField("XP", curXp, true)
+                .setFooter(`${difference} XP until level up`, msg.author.displayAvatarURL( { dynamic:true} ));
+                msg.reply(lvlEmbed);
+
+            break;
         case 'meta':
             if (!args[1]) {
                 return;
@@ -124,32 +188,6 @@ bot.on('message', msg => {
                     })
                 }
             }
-        /*  case 'kick':
-               if (!msg.member.roles.cache.find(r => r.name === 'Guild Master') && !msg.member.roles.cache.find(r => r.name === 'Mods')
-                   && !msg.member.roles.cache.find(r => r.name === 'Hentai')) {
-                    return msg.reply('You do not have Permission for this Command!');
-               } else {
-                   if (!args[1]) {
-                       msg.reply('You need to specify a person in your second argument!')
-                   } else {
-                       const user = msg.mentions.users.first();
-                       if (user) {
-                           const member = member.guild.member(user);
-                           if (member) {
-                               member.kick('You were kicked from this server').then(() => {
-                                   msg.reply(`Succesfully kicked ${user.tag}`);
-                               }).catch(err => {
-                                   msg.reply('Unable to kick member')
-                                   console.log(err);
-                               });
-                           } else {
-                               msg.reply('That user is not on this server')
-                           }
-                       } else {
-                           msg.reply('That user is not on this server')
-                       }
-                   }
-               }*/
     }
 })
 
@@ -216,4 +254,5 @@ bot.on("messageReactionRemove", async (reaction, user) => {
     }
 })
 
+// bot.login(token);
 bot.login(process.env.token);
