@@ -95,7 +95,7 @@ bot.on('message', msg => {
                 .addField("Hunter Rank", curLvl, true)
                 .addField("XP", curXp, true)
                 .setFooter(`${difference} XP until your Hunter Rank increases!`, msg.author.displayAvatarURL({ dynamic: true }));
-            msg.reply(lvlEmbed + 'hi');
+            msg.reply(lvlEmbed);
 
             break;
         case 'meta':
