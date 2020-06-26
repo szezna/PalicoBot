@@ -10,6 +10,7 @@ const PREFIX = '!';
 const Patch = 'Meta Builds Patch Version 13.50';
 const newestVideo = ["https://www.youtube.com/watch?v=OSifzcaJpPk"];
 
+
 // const { monster } = require('./monster.js');
 let xpData = require('./xp.json');
 const colors = require('./colors.json');
@@ -94,7 +95,7 @@ bot.on('message', msg => {
                 .addField("Hunter Rank", curLvl, true)
                 .addField("XP", curXp, true)
                 .setFooter(`${difference} XP until your Hunter Rank increases!`, msg.author.displayAvatarURL({ dynamic: true }));
-            msg.reply(lvlEmbed);
+            msg.reply(lvlEmbed + 'hi');
 
             break;
         case 'meta':
