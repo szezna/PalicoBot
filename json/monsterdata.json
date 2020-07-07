@@ -1,0 +1,783 @@
+[
+    {
+        "name": "Rusted Kushala Daora",
+        "points": 16,
+        "link": "https://i.imgur.com/WjLoFSE.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Savage Deviljho",
+        "points": 17,
+        "link": "https://i.imgur.com/R9qLdXX.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Uragaan",
+        "points": 6,
+        "link": "https://i.imgur.com/TkgFYEU.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Arzuros",
+        "points": 3,
+        "link": "https://i.imgur.com/7eZzDQw.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Cephadrome",
+        "points": 3,
+        "link": "https://i.imgur.com/zPH2rjM.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Congalala",
+        "points": 3,
+        "link": "https://i.imgur.com/lH8gOND.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Jyuratodos",
+        "points": 3,
+        "link": "https://i.imgur.com/asjhyte.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Kecha Wacha",
+        "points": 3,
+        "link": "https://i.imgur.com/Id7lguf.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Lagombi",
+        "points": 3,
+        "link": "https://i.imgur.com/HiUOyXI.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Paolumu",
+        "points": 3,
+        "link": "https://i.imgur.com/JFhGR07.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Kulu-Ya-Ku",
+        "points": 2,
+        "link": "https://i.imgur.com/K3RyE6R.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Bulldrome",
+        "points": 2,
+        "link": "https://i.imgur.com/apQ66mZ.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Velocidrome",
+        "points": 2,
+        "link": "https://i.imgur.com/aje2iVH.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Great Maccao",
+        "points": 2,
+        "link": "https://i.imgur.com/Trr0cHg.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Giadrome",
+        "points": 2,
+        "link": "https://i.imgur.com/x83zwWw.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Barroth",
+        "points": 4,
+        "link": "https://i.imgur.com/KucJJzw.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Daimyo Hermitaur",
+        "points": 4,
+        "link": "https://i.imgur.com/qAK3rmC.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Dodogama",
+        "points": 5,
+        "link": "https://i.imgur.com/8zPVtqa.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Great Baggi",
+        "points": 4,
+        "link": "https://i.imgur.com/4lGN909.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Great Girros",
+        "points": 4,
+        "link": "https://i.imgur.com/wGvFJr2.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Great Jaggi",
+        "points": 3,
+        "link": "https://i.imgur.com/bARH8be.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Gypceros",
+        "points": 3,
+        "link": "https://i.imgur.com/87hJOhY.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Khezu",
+        "points": 4,
+        "link": "https://i.imgur.com/weKzd2o.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Tobi Kadachi",
+        "points": 4,
+        "link": "https://i.imgur.com/sS9DqGj.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Yian Kut Ku",
+        "points": 4,
+        "link": "https://i.imgur.com/3hSiBMe.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Anjanath",
+        "points": 6,
+        "link": "https://i.imgur.com/HRcm2na.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Pukei Pukei",
+        "points": 4,
+        "link": "https://i.imgur.com/sKbGSXv.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Qurupeco",
+        "points": 4,
+        "link": "https://i.imgur.com/MG3p0Hm.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Rathalos",
+        "points": 8,
+        "link": "https://i.imgur.com/Oteqxbb.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Rathian",
+        "points": 5,
+        "link": "https://i.imgur.com/1gR3iCY.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Ruby Basarios",
+        "points": 7,
+        "link": "https://i.imgur.com/6zEVxlO.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Shogun Ceanataur",
+        "points": 5,
+        "link": "https://i.imgur.com/9ghtUAh.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Tigrex",
+        "points": 8,
+        "link": "https://i.imgur.com/eYZnM4t.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Uragaan",
+        "points": 6,
+        "link": "https://i.imgur.com/TkgFYEU.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Volvidon",
+        "points": 5,
+        "link": "https://i.imgur.com/yWc2in1.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Yian Garuga",
+        "points": 7,
+        "link": "https://i.imgur.com/5OSW64N.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Barioth",
+        "points": 7,
+        "link": "https://i.imgur.com/0Fdljc7.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Diablos",
+        "points": 7,
+        "link": "https://i.imgur.com/xkFU8Kf.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Zamtrios",
+        "points": 7,
+        "link": "https://i.imgur.com/0NGoeji.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Basarios",
+        "points": 6,
+        "link": "https://i.imgur.com/1Ej64Cs.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Blangonga",
+        "points": 7,
+        "link": "https://i.imgur.com/kaXrMv0.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Emerald Congalala",
+        "points": 6,
+        "link": "https://i.imgur.com/XWldpPH.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Gravios",
+        "points": 8,
+        "link": "https://i.imgur.com/vQ9Q2xE.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Gigginox",
+        "points": 6,
+        "link": "https://i.imgur.com/yx4KKwm.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Gobul",
+        "points": 8,
+        "link": "https://i.imgur.com/vR9tYvz.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Green Plesioth",
+        "points": 7,
+        "link": "https://i.imgur.com/iN4l5jG.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Jade Barroth",
+        "points": 7,
+        "link": "https://i.imgur.com/iSwlnX3.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Lavasioth",
+        "points": 8,
+        "link": "https://i.imgur.com/uotwQne.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Legiana",
+        "points": 8,
+        "link": "https://i.imgur.com/xcFPkR1.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Malfestio",
+        "points": 6,
+        "link": "https://i.imgur.com/QAt9xZ5.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Nerscylla",
+        "points": 5,
+        "link": "https://i.imgur.com/qIhkeVD.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Nargacuga",
+        "points": 8,
+        "link": "https://i.imgur.com/RNamIO8.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Nibelsnarf",
+        "points": 6,
+        "link": "https://i.imgur.com/gCMMNc2.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Odogaron",
+        "points": 8,
+        "link": "https://i.imgur.com/nkkXTyB.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Plesioth",
+        "points": 5,
+        "link": "https://i.imgur.com/NbSXHx0.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Agnaktor",
+        "points": 9,
+        "link": "https://i.imgur.com/I159Nbq.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Astalos",
+        "points": 10,
+        "link": "https://i.imgur.com/Kym9jlM.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Atlal - Ka",
+        "points": 14,
+        "link": "https://i.imgur.com/q7CzwJb.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Azure Rathalos",
+        "points": 10,
+        "link": "https://i.imgur.com/PtMDRxB.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Bazelgeuse",
+        "points": 11,
+        "link": "https://i.imgur.com/FmPWuD2.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Black Diablos",
+        "points": 10,
+        "link": "https://i.imgur.com/hCOQFsb.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Gammoth",
+        "points": 10,
+        "link": "https://i.imgur.com/pwqG3Tt.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Brachydios",
+        "points": 10,
+        "link": "https://i.imgur.com/POjSnJU.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Brute Tigrex",
+        "points": 11,
+        "link": "https://i.imgur.com/GkmVPTu.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Chameleos",
+        "points": 11,
+        "link": "https://i.imgur.com/9rv9IKM.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Deviljho",
+        "points": 12,
+        "link": "https://i.imgur.com/qwoCY3C.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Glacial Agnaktor",
+        "points": 11,
+        "link": "https://i.imgur.com/3dydhwP.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Glavenus",
+        "points": 10,
+        "link": "https://i.imgur.com/tx9bmLd.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Gold Rathian",
+        "points": 12,
+        "link": "https://i.imgur.com/aksvSvD.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Gore Magala",
+        "points": 11,
+        "link": "https://i.imgur.com/NeIG5Z3.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Ivory Lagiacrus",
+        "points": 12,
+        "link": "https://i.imgur.com/4FqkUzn.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Kirin",
+        "points": 11,
+        "link": "https://i.imgur.com/qYBypHv.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Lagiacrus",
+        "points": 9,
+        "link": "https://i.imgur.com/B463JYe.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Lunastra",
+        "points": 14,
+        "link": "https://i.imgur.com/KPGd831.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Mizutsune",
+        "points": 10,
+        "link": "https://i.imgur.com/Ufx23GR.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Molten Tigrex",
+        "points": 13,
+        "link": "https://i.imgur.com/rDwaJFq.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Oroshi Kirin",
+        "points": 13,
+        "link": "https://i.imgur.com/WtVZ72Z.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Pink Rathian",
+        "points": 9,
+        "link": "https://i.imgur.com/Rbw6Z0N.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Rajang",
+        "points": 12,
+        "link": "https://i.imgur.com/dnzzgNj.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Sand Barioth",
+        "points": 9,
+        "link": "https://i.imgur.com/b3v4a5l.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Seregios",
+        "points": 10,
+        "link": "https://i.imgur.com/bx14irj.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Shen Gaoren",
+        "points": 13,
+        "link": "https://i.imgur.com/sah7HYe.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Silver Rathalos",
+        "points": 12,
+        "link": "https://i.imgur.com/fB7aNHt.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Teostra",
+        "points": 14,
+        "link": "https://i.imgur.com/BIUb7DU.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Vaal Hazak",
+        "points": 13,
+        "link": "https://i.imgur.com/mVYQPVr.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "White Monoblos",
+        "points": 9,
+        "link": "https://i.imgur.com/GrXuCfL.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Zinogre",
+        "points": 9,
+        "link": "https://i.imgur.com/90wlEWX.png",
+        "rarity": "★★"
+    },
+    {
+        "name": "Kushala Daora",
+        "points": 15,
+        "link": "https://i.imgur.com/EWTcBzr.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Akantor",
+        "points": 20,
+        "link": "https://i.imgur.com/zALuAi7.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Ceadeus",
+        "points": 16,
+        "link": "https://i.imgur.com/A56DdR3.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Chaotic Gore Magala",
+        "points": 17,
+        "link": "https://i.imgur.com/PXsuNP5.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Dah'ren Mohran",
+        "points": 19,
+        "link": "https://i.imgur.com/1hEG5c4.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Furious Rajang",
+        "points": 17,
+        "link": "https://i.imgur.com/mHpomds.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Gogmazios",
+        "points": 20,
+        "link": "https://i.imgur.com/Dd3TyXc.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Jhen Moran",
+        "points": 19,
+        "link": "https://i.imgur.com/QIJdLaQ.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Kulve Taroth",
+        "points": 18,
+        "link": "https://i.imgur.com/LzulcF5.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Lao - Shan Lung",
+        "points": 19,
+        "link": "https://i.imgur.com/sRgFSSj.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Nergigante",
+        "points": 16,
+        "link": "https://i.imgur.com/V4n8Ynu.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Rusted Kushala Daora",
+        "points": 16,
+        "link": "https://i.imgur.com/WjLoFSE.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Savage Deviljho",
+        "points": 17,
+        "link": "https://i.imgur.com/R9qLdXX.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Shagaru Magala",
+        "points": 20,
+        "link": "https://i.imgur.com/lrdO5IT.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Stygian Zinogre",
+        "points": 17,
+        "link": "https://i.imgur.com/b7vhRS6.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Ukanlos",
+        "points": 20,
+        "link": "https://i.imgur.com/LSHbN7B.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Valstrax",
+        "points": 16,
+        "link": "https://i.imgur.com/E74llnu.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Yama Tsukami",
+        "points": 18,
+        "link": "https://i.imgur.com/mqwDy5y.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Zorah Magdaros",
+        "points": 20,
+        "link": "https://i.imgur.com/nxmSIHf.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Alatreon",
+        "points": 28,
+        "link": "https://i.imgur.com/jDqbzyr.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Amatsu",
+        "points": 23,
+        "link": "https://i.imgur.com/N8duTTi.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Black Fatalis",
+        "points": 28,
+        "link": "https://i.imgur.com/EnPoA30.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Crimsion Fatalis",
+        "points": 28,
+        "link": "https://i.imgur.com/laWm6wU.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Dalamadur",
+        "points": 23,
+        "link": "https://i.imgur.com/KFFj0ia.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Dire Miralis",
+        "points": 28,
+        "link": "https://i.imgur.com/sPE89pT.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Safi'jiiva",
+        "points": 25,
+        "link": "https://i.imgur.com/JibypZE.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Xeno'jiiva",
+        "points": 23,
+        "link": "https://i.imgur.com/J2vlf3j.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "White Fatalis",
+        "points": 30,
+        "link": "https://i.imgur.com/5VRWHzo.png",
+        "rarity": "★★★★★+"
+    },
+    {
+        "name": "Hey, Partner!",
+        "points": 0,
+        "link": "https://i.imgur.com/R3oBdzo.png",
+        "rarity": "★★★★★+"
+    },
+    {
+        "name": "Ruiner Nergigante",
+        "points": 20,
+        "link": "https://i.imgur.com/1cgY237.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Shara Ishvalda",
+        "points": 25,
+        "link": "https://i.imgur.com/i1yiQIq.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Namielle",
+        "points": 18,
+        "link": "https://i.imgur.com/pCUFS1x.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Blackveil Vaal Hazak",
+        "points": 17,
+        "link": "https://i.imgur.com/ayRvlAc.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Velkhana",
+        "points": 19,
+        "link": "https://i.imgur.com/IqbqHUR.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Extreme Behemoth",
+        "points": 24,
+        "link": "https://i.imgur.com/Oi89Luc.png",
+        "rarity": "★★★★★"
+    },
+    {
+        "name": "Where's my dragonator!",
+        "points": 2,
+        "link": "https://i.imgur.com/3uNcwxL.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Palico",
+        "points": 1,
+        "link": "https://i.imgur.com/5X60Pl0.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Poogie",
+        "points": 1,
+        "link": "https://i.imgur.com/Z1opSQG.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Meowscular Chef",
+        "points": 1,
+        "link": "https://i.imgur.com/kunH6BJ.png",
+        "rarity": "★"
+    },
+    {
+        "name": "Thunderlord Zinogre",
+        "points": 15,
+        "link": "https://i.imgur.com/FQUOfR7.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Green Nargacuga",
+        "points": 11,
+        "link": "https://i.imgur.com/zIUhU7g.png",
+        "rarity": "★★★"
+    },
+    {
+        "name": "Raging Brachydios",
+        "points": 18,
+        "link": "https://i.imgur.com/Z9VjAzQ.png",
+        "rarity": "★★★★"
+    },
+    {
+        "name": "Royal Ludroth",
+        "points": 5,
+        "link": "https://i.imgur.com/6dHmDGf.png",
+        "rarity": "★"
+    }
+    
+]

@@ -1,0 +1,22 @@
+{
+    "token": "NzIxMzI1ODUwMzM4Nzg3MzM4.XuS50g.qjsoJcYOP1FYtDgjzibbQ0XSba0",
+    "prefix": "!",
+    "roleAdmin": "Super Mod",
+    "roleMods": "Fishy Business",
+    "roleHunter": "Hunter",
+    "patch": "Meta Builds Patch Version 13.50",
+
+    "colors": {
+        "red": "#b70000",
+        "orange": "#ff6a00",
+        "green": "#00ff26",
+        "purple": "#d604cf",
+        "ps4": "#003791",
+        "xbox": "#107c10",
+        "pc": "#ADD8E6",
+        "speedrunner": "#a41655",
+        "memer": "#9b0000",
+        "setbuilder": "#25dad1",
+        "weeb": "8f56a8"
+    }
+}
